@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Type Selection</title>
+</head>
+<body>
+
+<form>
+    <label>
+        <input type="radio" name="employee-type" > Salaried
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="employee-type"> Own Business
+    </label>
+</form>
+<style>
+    input[type="radio"] {
+    appearance: none;
+    width: 13px; 
+    height: 13px;
+    border-radius: 50%; 
+    border: 3px solid #ccc;
+}
+    input[type="radio"]:checked{
+        background-color: blue;
+    }
+</style>
+</body>
+</html>
