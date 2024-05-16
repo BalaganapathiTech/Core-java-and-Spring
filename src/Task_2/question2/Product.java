@@ -1,4 +1,4 @@
-package question2;
+package Task_2.question2;
 
 public class Product {
 	protected int pID;

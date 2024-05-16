@@ -1,6 +1,5 @@
-package Question4;
+package Task_4.Question4;
 
-import Question1.Main;
 
 import java.util.HashMap;
 

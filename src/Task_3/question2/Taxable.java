@@ -1,4 +1,4 @@
-package question2;
+package Task_3.question2;
 
 public interface Taxable {
 

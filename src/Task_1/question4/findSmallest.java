@@ -1,8 +1,5 @@
 package Task_1.question4;
-
-
 import java.util.Scanner;
-
 public class findSmallest {
  
 	static int arr[]= new int[3];

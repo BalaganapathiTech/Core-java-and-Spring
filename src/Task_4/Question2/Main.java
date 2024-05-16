@@ -1,5 +1,4 @@
-package Question2;
-
+package Task_4.Question2;
 public class Main {
 
     public static void main(String[] args) {
