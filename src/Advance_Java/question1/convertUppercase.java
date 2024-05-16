@@ -1,4 +1,3 @@
-
 /*
 Write a program using map() method to convert a list of Strings into uppercase.
 If the given List is: Stream names = Stream.of("abc", "d", "ef");
