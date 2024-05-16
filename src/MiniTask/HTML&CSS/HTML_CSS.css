@@ -1,0 +1,443 @@
+/* /* file 1 */
+
+/* img{
+    border-radius: 10px;
+    border: 2px dashed #100;
+    filter: grayscale(100%);
+
+} */
+
+/* file 2 */
+/* img{
+    border-radius: 10px;
+    border: 2px dashed #100;
+    filter: grayscale(100%);
+
+} */
+
+/* file 3 */
+
+/* body{
+    font-size: 3    0px;
+
+}
+@media screen and (max-width:700px) {
+    body{
+        font-size: 16px;
+    }
+    
+} */
+
+/* file 4 */
+
+/* .cursor-type{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer; 
+}
+
+#pointer{
+    cursor: pointer;
+}
+
+#crosshair{
+    cursor: crosshair;
+}
+
+#text{
+    cursor: text;
+}
+
+#move{
+    cursor: move;
+}
+#wait{
+    cursor: wait;
+}
+#help{
+    cursor: help;
+}
+ */
+
+
+/* file 5 */
+
+        /* .box-model {
+            padding: 30px; 
+            margin: 20px; 
+            border: 3px solid #000;
+        } */
+
+/* file 6 */
+
+/* .hover-effect:hover{
+    font-size: 24px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transition 0.3s ease;
+} */
+
+/* file 7 */
+
+/* .move-element{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    transform: translate(500px,300px);
+} */
+
+/* file 8 */
+
+/* .tooltip{
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+.tooltip .tooltip-text{
+    visibility: hidden;
+    position:absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius:5px;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.tooltip:hover .tooltip-text{
+    
+  visibility: visible;
+  opacity: 1;
+} */
+
+/* file 9 */
+
+/* img{
+    position: absolute;
+    clip: rect(0px,200px,100px,0px);
+  }  */
+
+/* file 10 */
+
+/* .drop-cap::first-letter {
+    font-size: 3em;
+    float: left; 
+    margin-right: 0.1em; 
+    line-height: 0.5;
+} */
+
+/* file 11 */
+
+/* .rectangle{
+    width: 200px;
+    height: 100px; 
+    background-color: #3498db;
+    border-top-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+ } */
+
+/* file 12 */
+/* 
+.Background-image{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/iron\ man.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+/* file 13 */
+
+/* .felxible{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.felxible div{
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 5px;
+} */
+
+/* file 14 */
+/* 
+.image-border{
+    border: 30px solid transparent;
+    background-image: url(img/polar.jpeg);
+    background-repeat: repeat;
+    padding: 100px;
+
+} */
+
+/* file 15 */
+
+/* .round-corner{
+    border-radius:  0 0 25px 25px;
+    background-color: #f0f0f0;
+    padding: 25px;
+} */
+
+/* file 16 */
+/* 
+.image-opacity{
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+.image-opacity:hover{
+    opacity: 1;
+} */
+
+/* file 17 */
+
+/* .positioninng{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+} */
+
+/* file 18 */
+
+/* .scrollable{
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+} */
+
+/* file 19 */
+
+/* .gradient-background{
+    width: 300;
+    height: 200;
+    background: linear-gradient(to bottom, white,blue,red, green);
+    position: absolute;
+} */
+
+/* file 20 */
+
+/* .rotate-element{
+    background-color: red; 
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30%;
+    bottom: 60%;  
+    transform-origin: center;
+} */
+
+
+
+
+/* CSS for File 1: Wave Equation */
+body {
+    font-size: 50px;
+}
+
+
+/* CSS for File 2: Animal Images */
+img {
+    border-radius: 10px;
+    border: 2px dashed #100;
+    filter: grayscale(100%);
+}
+
+/* CSS for File 3: Responsive Font Size */
+body {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* CSS for File 4: Cursor Types */
+.cursor-type {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#pointer {
+    cursor: pointer;
+}
+
+#crosshair {
+    cursor: crosshair;
+}
+
+#text {
+    cursor: text;
+}
+
+#move {
+    cursor: move;
+}
+
+#wait {
+    cursor: wait;
+}
+
+#help {
+    cursor: help;
+}
+
+/* CSS for File 5: Box Model Example */
+.box-model {
+    padding: 30px;
+    margin: 20px;
+    border: 3px solid #000;
+}
+
+/* CSS for File 6: Hover Effect Example */
+.hover-effect:hover {
+    font-size: 24px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transition 0.3s ease;
+}
+
+/* CSS for File 7: Move Element Example */
+.move-element {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    transform: translate(500px, 300px);
+}
+
+/* CSS for File 8: Tooltip Example */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* CSS for File 9: Clipped Image Example */
+img {
+    position: absolute;
+    clip: rect(0px, 200px, 100px, 0px);
+}
+
+/* CSS for File 10: Drop Cap Example */
+.drop-cap::first-letter {
+    font-size: 3em;
+    float: left;
+    margin-right: 0.1em;
+    line-height: 0.5;
+}
+
+/* CSS for File 11: Reshape */
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    border-top-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+}
+
+/* CSS for File 12: Background Image */
+.Background-image {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/iron\ man.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CSS for File 13: Reverse Flex Direction Example */
+.felxible {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.felxible div {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* CSS for File 14: Image Border */
+.image-border {
+    border: 30px solid transparent;
+    background-image: url(img/polar.jpeg);
+    background-repeat: repeat;
+    padding: 100px;
+}
+
+/* CSS for File 15: Round Corner */
+.round-corner {
+    border-radius: 0 0 25px 25px;
+    background-color: #f0f0f0;
+    padding: 25px;
+}
+
+/* CSS for File 16: Remove Transparent Opacity */
+.image-opacity {
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+
+.image-opacity:hover {
+    opacity: 1;
+}
+
+/* CSS for File 17: Positioning */
+.positioninng {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* CSS for File 18: Scrollable */
+.scrollable {
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+}
+
+/* CSS for File 19: Linear Gradient Background */
+.gradient-background {
+    width: 300;
+    height: 200;
+    background: linear-gradient(to bottom, white, blue, red, green);
+    position: absolute;
+}
+
+/* CSS for File 20: Rotate Element */
+.rotate-element {
+    background-color: red;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30%;
+    bottom: 60%;
+    transform-origin: center;
+}
+
