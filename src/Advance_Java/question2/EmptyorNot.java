@@ -5,7 +5,7 @@ is: Liststrings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
  */
 
 
-package question2;
+package Advance_Java.question2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

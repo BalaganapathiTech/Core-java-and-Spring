@@ -4,7 +4,7 @@ Write a program using map() method to convert a list of Strings into uppercase.
 If the given List is: Stream names = Stream.of("abc", "d", "ef");
  */
 
-package question1;
+package Advance_Java.question1;
 
 import java.util.List;
 import java.util.stream.Collectors;
