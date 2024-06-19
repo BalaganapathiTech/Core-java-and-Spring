@@ -85,11 +85,13 @@
             <th>Price</th>
             <th>Category</th>
         </tr>
+
         <tr th:each="product : ${products}">
             <td th:text="${product.name}"></td>
             <td th:text="${product.price}"></td>
             <td th:text="${product.category}"></td>
         </tr>
+
     </table>
 
     <a class="button" href="/add-product">Add New Product</a>
